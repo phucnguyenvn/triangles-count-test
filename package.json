@@ -8,6 +8,6 @@
       "mocha": "3.5.0"
     },
     "scripts": {
-      "test": "node_modules/.bin/mocha tests/TriCount.spec.js"
+      "test": "node_modules/.bin/mocha tests/TriCount.spec.js --timeout 10000"
     }
   }
