@@ -1,0 +1,13 @@
+{
+    "name": "triangles-count-test",
+    "version": "1.0.0",
+    "description": "Triangles Count developped in NodeJS and using Mocha for the UnitTests",
+    "author": "Phuc Nguyen <hong.phuc@outlook.com>",
+    "license": "MIT",
+    "dependencies": {
+      "mocha": "3.5.0"
+    },
+    "scripts": {
+      "test": "node_modules/.bin/mocha tests/TriCount.spec.js"
+    }
+  }
