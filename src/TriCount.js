@@ -25,7 +25,7 @@ class TriCount {
         throw new Error("maxLength must be between minLength and 1,000,000");
       }
   
-      var total = 0;
+      let total = 0;
 
       /**
        * Define triangle ABC contain three sides: ab, bc, ca 
@@ -36,12 +36,12 @@ class TriCount {
        *    result: 888, 889, 899, 999 => return 4
        * 
       */
-      for(var ab = minLength; ab < maxLength + 1; ab++){
+      for(let ab = minLength; ab < maxLength + 1; ab++){
         // set bc = ab on first loop to prevent count some triangles more than once
-        for(var bc = ab; bc < maxLength + 1; bc++){
+        for(let bc = ab; bc < maxLength + 1; bc++){
           // set ca = bc on first loop to prevent count some triangles more than once
           // skip the loop if ca is greater than ab + bc
-          for(var ca = bc; ca < Math.min(maxLength + 1, ab + bc); ca++){
+          for(let ca = bc; ca < Math.min(maxLength + 1, ab + bc); ca++){
             total++;
             // If there are more than 1,000,000,000 triangles, return -­1
             if (total > 1000000000) return -1;
