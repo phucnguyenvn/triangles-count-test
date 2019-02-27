@@ -22,6 +22,43 @@ Create a class TriCount that contains a method count that is given ints minLengt
 * minLength is between 1 and 1,000,000, inclusive.
 * maxLength is between minLength and 1,000,000, inclusive. 
 
+**Example 1**
+```
+1
+2
+
+Returns: 3
+
+The proper triangles with side lengths between 1 and 2 inclusive are {1,1,1} and {2,2,2}  and {1,2,2}.
+```
+ 
+**Example 2**
+```
+9
+10 
+ 
+Returns: 4 
+ 
+9,9,9 and 10,10,10 and 9,9,10 and 9,10,10 
+```
+
+**Example 3**
+```
+1
+1000000 
+ 
+Returns: ­1 
+ 
+There are VERY many triangles with lengths in this range. 
+```
+ 
+**Example 4**
+```
+19
+1000 
+ 
+Returns: 83540657
+```
 
 **Installation**
 
