@@ -9,7 +9,7 @@ Triangles with side lengths {2,3,4} and {4,3,5} differ, but {2,3,4} and {4,2,3} 
 
 We are only interested in proper triangles; the sum of the two smallest sides of a proper triangle must be strictly greater than the length of the biggest side.
 
-Create a class TriCount that contains a method count that is given ints minLength and maxLength and returns the number of different proper triangles whose sides all have lengths between minLength and maxLength inclusive. If there are more than 1,000,000,000 return ­1.  
+Create a class TriCount that contains a method count that is given ints minLength and maxLength and returns the number of different proper triangles whose sides all have lengths between minLength and maxLength inclusive. If there are more than 1,000,000,000 return -1.  
 
 **Definition**
 
@@ -47,11 +47,11 @@ Returns: 4 
 1
 1000000 
  
-Returns: ­1 
+Returns: -1 
  
 There are VERY many triangles with lengths in this range. 
 ```
- 
+
 **Example 4**
 ```
 19
